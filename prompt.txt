@@ -1,0 +1,8 @@
+name - loginPrompt
+descrition- 'On the given URL https://automationexercise.com/login\n' +
+    'Please create 5 test cases with positive and negative test cases.\n' +
+    'if your username or password is incorrect you should get this error message "Your email or password is incorrect!"\n' +
+    'if the username and password are correct, you should see the product catalog with images, price and description on the page.',
+    'if the username and password are correct, you should see the product catalog with images, price and description on the page.',
+
+    
