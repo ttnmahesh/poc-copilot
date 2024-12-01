@@ -23,7 +23,13 @@ class LoginPage {
         await this.page.click(this.loginButtonSelector);
     }
 
-    async login(email, password) {
+    // async login(email, password) {
+    //     await this.enterEmail(email);
+    //     await this.enterPassword(password);
+    //     await this.clickLogin();
+    // }
+
+    async login1(email, password) {
         await this.enterEmail(email);
         await this.enterPassword(password);
         await this.clickLogin();
