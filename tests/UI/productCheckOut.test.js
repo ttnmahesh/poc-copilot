@@ -14,7 +14,7 @@ test('Add product to cart and checkout and verify', async ({ browser }) => {
 
     // Add product to cart
     const productName = 'IPHONE 13 PRO';
-    const { name, price } = await addProductInCart.addProductToCart(productName);
+    const { name, price } = await addProductInCart.addProductsToCart(productName);
 
     // Verify cart item count
     const isCartItemCountCorrect = await addProductInCart.verifyCartItemCount(1);
