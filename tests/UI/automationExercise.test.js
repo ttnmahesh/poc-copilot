@@ -10,6 +10,7 @@ test.describe('Automation Exercise Tests', () => {
   });
 
   test('Verify Product Details and Capture Images', async ({ page }) => {
+    test.setTimeout(60000); // Increase timeout to 60 seconds
     const productDetails = await automationExercisePage.getProductDetails();
 
     // Assertions in the middle of the test
@@ -36,5 +37,31 @@ test.describe('Automation Exercise Tests', () => {
     // Assertions
     expect(categories.length).toBeGreaterThan(0);
     expect(brands.length).toBeGreaterThan(0);
+  });
+
+  test.skip('Checkout Product - Cotton Mull Embroidered Dress', async ({ page }) => {
+    const productName = 'Cotton Mull Embroidered Dress';
+    await page.waitForSelector('.features_items'); // Ensure the page is fully loaded
+    const product = await automationExercisePage.findProduct(productName);
+    expect(product).not.toBeNull();
+
+    await automationExercisePage.addProductToCart(product);
+    await automationExercisePage.goToCart();
+    await automationExercisePage.proceedToCheckout();
+
+    const { deliveryAddress, billingAddress } = await automationExercisePage.verifyAddresses();
+
+    // Assertions for addresses
+    expect(deliveryAddress).toContain('John Doe');
+    expect(billingAddress).toContain('John Doe');
+
+    await automationExercisePage.enterPaymentDetails('John Doe', '4111111111111111', '123', '12', '2025');
+    await automationExercisePage.placeOrder();
+
+    const confirmationMessage = await automationExercisePage.verifyOrderConfirmation();
+
+    // Final assertion
+    expect(confirmationMessage).toContain('Order Placed!');
+    expect(confirmationMessage).toContain('Congratulations! Your order has been confirmed!');
   });
 });

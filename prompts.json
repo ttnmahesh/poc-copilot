@@ -1,0 +1,158 @@
+[
+  {
+    "id": "cm3o2o3ul01h5det6byyamauf",
+    "createdAt": "2024-11-19T06:27:09.310Z",
+    "updatedAt": "2024-11-19T06:27:27.669Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "Add to cart here",
+    "name": "Add-to-cart",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Pid4",
+      "Cart"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3o1vam300vkbejjpfdmptok",
+    "createdAt": "2024-11-19T06:04:45.052Z",
+    "updatedAt": "2024-11-19T06:16:10.476Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "As a test engineer, i want to test cases for successful login functionality",
+    "name": "Successful-login-with-valid-credentials",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Login",
+      "Pid3"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3o1wefc00vqbejjj72e3f6y",
+    "createdAt": "2024-11-19T06:05:36.648Z",
+    "updatedAt": "2024-11-19T06:16:03.329Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "As a test engineer, i want to test cases for successful login functionality",
+    "name": "Unsuccessful-login-with-empty-credentials",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Login",
+      "Pid1"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3o1vwrk0196det67p8nbrjq",
+    "createdAt": "2024-11-19T06:05:13.760Z",
+    "updatedAt": "2024-11-19T06:15:53.764Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "As a test engineer, i want to test cases for successful login functionality",
+    "name": "Unsuccessful-login-with-invalid-credentials",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Login",
+      "PId2"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3plms8g00zjz4921xdk98ap",
+    "createdAt": "2024-11-20T08:05:46.480Z",
+    "updatedAt": "2024-11-20T08:07:53.252Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": " Create page objects, test scripts, and add assertions for the following scenario:\n\n    Login: Log in at https://rahulshettyacademy.com/client with:\n        Username: johndoe@mailinator.com\n        Password: Pass@123\n\n    Search Product: Search for 'iPhone 13 Pro,' verify it appears in results, and select it.\n\n    Add to Cart: Add the product to the cart and verify the item count updates.\n\n    Cart Verification: Check the product in the cart and verify stock availability.\n\n    Checkout: Complete the checkout process:\n        Validate payment details and simulate a successful transaction.\n        Apply valid/invalid discount coupons and verify outcomes.\n\n    Order Confirmation: Confirm the order, verify the success message, and validate order details in 'Your Orders' (name, price, date, status).\n\nHighlighted point - Add prompt name everywhere as a comment where you are making code changes. it should be like - Created this codebase by using prompt id (pick prompt Id from name field)",
+    "name": "prompt_id_1",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Search Products"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3plnikz00zlz492nezjx5kh",
+    "createdAt": "2024-11-20T08:06:20.628Z",
+    "updatedAt": "2024-11-20T08:07:33.234Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "Create page objects, test scripts, and add assertions for the following scenario:\n\n    Search Filter: Verify the search bar displays products matching entered keywords.\n\n    Price Range Filter: Test Minimum and Maximum Price inputs; confirm results match the price range.\n\n    Category Filters: Validate category checkboxes (Fashion, Electronics, Household) filter products accordingly.\n\n    Sub-Category Filters: Test sub-category checkboxes (T-shirts, Shirts, Shoes, Mobiles, Laptops) refine results under selected categories.\n\n    Gender-Specific Filters: Verify filters for Men and Women display relevant products.\n\n    Combined Filters: Ensure filters work individually and in combination, with applied filters displayed to users.\n\n    Pagination: Confirm pagination functions correctly with filters applied.",
+    "name": "prompt_id_2",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Search Filters"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3plo3el00znz49211vtajrf",
+    "createdAt": "2024-11-20T08:06:47.614Z",
+    "updatedAt": "2024-11-20T08:07:12.178Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "  Create page objects, test scripts, and add assertions for the following scenario:\n\n    Add Product to Cart: Navigate to product listing or search for a specific product (e.g., 'x item'). Open product details page to verify image, name, description, price, and stock status. Add the product to the cart.\n\n    Cart Verification: Navigate to the cart and verify:\n        Product Name\n        Product Price\n        Quantity\n        Stock Status (In Stock/Out of Stock)\n        Ensure all details match the product details page.\n\n    Remove Product from Cart: Remove the product from the cart and validate:\n        Product is no longer listed in the cart.\n        Cart count updates correctly.\n        Cart total updates appropriately.\n\n    Validation Tests: Verify no deleted product remains in the cart, and \"Out of Stock\" items cannot be added. Test for no errors or inconsistencies during add/remove actions and ensure functionality across devices.",
+    "name": "prompt_id_3",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Add to Cart"
+    ],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3pojnon01oocizx11kn1sju",
+    "createdAt": "2024-11-20T09:27:19.463Z",
+    "updatedAt": "2024-11-20T09:27:44.680Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "Navigate to the following URL: https://rahulshettyacademy.com/client/.\n\nClick on the link labeled 'Register here' to open the registration form.\n\nFill in all the details on the registration form and click the 'Register' button.\n\n    Positive Test Case: Ensure that you use a unique email ID for the user during registration. Verify that the form is submitted successfully and that a 'Registration Successful' message is displayed.\n\n    Negative Test Case: Include scenarios for invalid or missing fields, and ensure appropriate error messages are shown when the form is not submitted due to incorrect input (e.g., invalid email, password mismatch, empty required fields).\n\n    Add assertions to validate the expected behavior, ensuring that:\n        All fields are correctly validated.\n        The success message is displayed for valid form submissions.\n        Appropriate error messages are shown for invalid form submissions.\n\nMake sure the test cases cover both valid and invalid data sets for comprehensive validation.",
+    "name": "prompt_id_4",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "Registeration"
+    ],
+    "labels": [
+      "latest"
+    ]
+  }
+]

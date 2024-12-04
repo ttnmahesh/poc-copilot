@@ -20,7 +20,7 @@ class AddProductInCart {
         this.successMessageSelector = 'text=Thankyou for the order.';
     }
 
-    async addProductToCart(productName) {
+    async addProductToCart(productNames) {
         const products = this.page.locator(this.productSelector);
         const productCount = await products.count();
         for (let i = 0; i < productCount; i++) {

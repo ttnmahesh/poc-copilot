@@ -1,0 +1,122 @@
+name - loginPrompt
+descrition- 'On the given URL https://automationexercise.com/login\n' +
+    'Please create 5 test cases with positive and negative test cases.\n' +
+    'if your username or password is incorrect you should get this error message "Your email or password is incorrect!"\n' +
+    'if the username and password are correct, you should see the product catalog with images, price and description on the page.',
+    'if the username and password are correct, you should see the product catalog with images, price and description on the page.',
+
+    
+
+User Story: Booking a Flight from Singapore to Delhi with a Disabled Traveller
+Title: Booking a Flight from Singapore to Delhi with a Disabled Traveller and 30% Off on Return Trip
+
+As a disabled traveller, I want to book a flight from Singapore to Delhi, So that I can travel comfortably with the necessary accommodations and receive a discount if I select a return trip.
+
+Acceptance Criteria:
+Flight Search:
+
+Given I am on the flight booking page,
+When I enter "Singapore" as the departure city and "Delhi" as the destination city,
+And I select the departure date,
+And I select the return date,
+Then I should see a list of available flights for the selected dates.
+Traveller Information:
+
+Given I have selected a flight,
+When I proceed to the traveller information page,
+And I indicate that I am a disabled traveller,
+Then I should see options for special assistance and accommodations.
+Return Trip Discount:
+
+Given I have selected a return trip,
+When I proceed to the payment page,
+Then I should see a 30% discount applied to the trip fees.
+Booking Confirmation:
+
+Given I have entered all required information and applied the discount,
+When I confirm the booking,
+Then I should receive a booking confirmation with all the details of my trip, including the special assistance and the applied discount.
+Error Handling:
+
+Given I have not filled in all required fields,
+When I try to proceed to the next step,
+Then I should see an error message indicating the missing information.
+Notes:
+Ensure that the system provides clear instructions and options for disabled travellers.
+The discount should only apply if a return trip is selected.
+The booking confirmation should include all relevant details, including special assistance and discounts.Prompt Name: PositiveAndNegativeLoginTestCases, Version: 1, Label: null
+{
+  "id": "cm2ebkj78011axgx5b1xzfc17",
+  "createdAt": "2024-10-18T05:58:55.029Z",
+  "updatedAt": "2024-10-18T05:58:55.029Z",
+  "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+  "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+  "prompt": "On the given URL https://automationexercise.com/login\nPlease create 5 test cases with positive and negative test cases.\nif your username or password is incorrect you should get this error message \"Your email or password is incorrect!\"\nif the username and password are correct, you should see the product catalog with images, price and description on the page.",
+  "name": "PositiveAndNegativeLoginTestCases",
+  "version": 1,
+  "type": "text",
+  "isActive": null,
+  "config": {},
+  "tags": [],
+  "labels": [
+    "latest"
+  ]
+}
+
+Prompt Name: PositiveAndNegativeLoginTestCases, Version: 1, Label: null
+{
+  "id": "cm2ebkj78011axgx5b1xzfc17",
+  "createdAt": "2024-10-18T05:58:55.029Z",
+  "updatedAt": "2024-10-18T05:58:55.029Z",
+  "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+  "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+  "prompt": "On the given URL https://automationexercise.com/login\nPlease create 5 test cases with positive and negative test cases.\nif your username or password is incorrect you should get this error message \"Your email or password is incorrect!\"\nif the username and password are correct, you should see the product catalog with images, price and description on the page.",
+  "name": "PositiveAndNegativeLoginTestCases",
+  "version": 1,
+  "type": "text",
+  "isActive": null,
+  "config": {},
+  "tags": [],
+  "labels": [
+    "latest"
+  ]
+}
+
+Prompt Name: PositiveAndNegativeLoginTestCases, Version: 1, Label: null
+{
+  "id": "cm2ebkj78011axgx5b1xzfc17",
+  "createdAt": "2024-10-18T05:58:55.029Z",
+  "updatedAt": "2024-10-18T05:58:55.029Z",
+  "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+  "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+  "prompt": "On the given URL https://automationexercise.com/login\nPlease create 5 test cases with positive and negative test cases.\nif your username or password is incorrect you should get this error message \"Your email or password is incorrect!\"\nif the username and password are correct, you should see the product catalog with images, price and description on the page.",
+  "name": "PositiveAndNegativeLoginTestCases",
+  "version": 1,
+  "type": "text",
+  "isActive": null,
+  "config": {},
+  "tags": [],
+  "labels": [
+    "latest"
+  ]
+}
+
+Prompt Name: PositiveAndNegativeLoginTestCases, Version: 1, Label: null
+{
+  "id": "cm2ebkj78011axgx5b1xzfc17",
+  "createdAt": "2024-10-18T05:58:55.029Z",
+  "updatedAt": "2024-10-18T05:58:55.029Z",
+  "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+  "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+  "prompt": "On the given URL https://automationexercise.com/login\nPlease create 5 test cases with positive and negative test cases.\nif your username or password is incorrect you should get this error message \"Your email or password is incorrect!\"\nif the username and password are correct, you should see the product catalog with images, price and description on the page.",
+  "name": "PositiveAndNegativeLoginTestCases",
+  "version": 1,
+  "type": "text",
+  "isActive": null,
+  "config": {},
+  "tags": [],
+  "labels": [
+    "latest"
+  ]
+}
+

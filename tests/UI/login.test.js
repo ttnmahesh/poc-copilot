@@ -70,3 +70,50 @@ test("User cannot login with invalid email", async ({ browser }) => {
 
   await context.close();
 });
+
+// write test cases with empty username and empty password
+
+test("User cannot login with empty email and password", async ({ browser }) => {
+  // Launch browser with specific viewport size
+  const context = await browser.newContext({
+    viewport: { width: 1900, height: 1080 },
+  });
+  const page = await context.newPage();
+
+  const loginPage = new LoginPage(page);
+
+  await loginPage.navigate();
+  await loginPage.login("", "");
+
+  // Check if the error toast message is displayed
+  const errorMessage = await page.locator(
+    "text=*Email is required"
+  );
+  await errorMessage.waitFor({ state: "visible" });
+  await expect(errorMessage).toBeVisible();
+
+  await context.close();
+});
+
+
+test("User cannot login with empty email and valid password", async ({ browser }) => {
+  // Launch browser with specific viewport size
+  const context = await browser.newContext({
+    viewport: { width: 1900, height: 1080 },
+  });
+  const page = await context.newPage();
+
+  const loginPage = new LoginPage(page);
+
+  await loginPage.navigate();
+  await loginPage.login("", "Password123");
+
+  // Check if the error toast message is displayed
+  const errorMessage = await page.locator(
+    "text=*Email is required"
+  );
+  await errorMessage.waitFor({ state: "visible" });
+  await expect(errorMessage).toBeVisible();
+
+  await context.close();
+});

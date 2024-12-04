@@ -1,0 +1,126 @@
+{
+    "test_cases": [
+        {
+            "s.no": "1",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and searches for iPhone 13 Pro",
+            "Test data": "Valid username, password, search term: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the product list page.",
+                "Enter 'iPhone 13 Pro' in the search bar and click on the search button.",
+                "Verify that the iPhone 13 Pro is displayed as a search result."
+            ],
+            "Expected": "iPhone 13 Pro should be displayed as a search result"
+        },
+        {
+            "s.no": "2",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and adds iPhone 13 Pro to cart",
+            "Test data": "Valid username, password, product name: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the product list page.",
+                "Select the iPhone 13 Pro from the search results and click on the Add to Cart button.",
+                "Verify that the iPhone 13 Pro is added to the cart successfully."
+            ],
+            "Expected": "iPhone 13 Pro should be added to the cart successfully"
+        },
+        {
+            "s.no": "3",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and views cart details",
+            "Test data": "Valid username, password, product name: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the cart page.",
+                "Verify that the iPhone 13 Pro is displayed in the cart along with the updated item count."
+            ],
+            "Expected": "iPhone 13 Pro should be displayed in the cart along with the updated item count"
+        },
+        {
+            "s.no": "4",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and checks stock availability",
+            "Test data": "Valid username, password, product name: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the product details page of iPhone 13 Pro.",
+                "Verify that the system displays the current stock availability."
+            ],
+            "Expected": "System should display the current stock availability"
+        },
+        {
+            "s.no": "5",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and proceeds to checkout",
+            "Test data": "Valid username, password, product name: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the cart page.",
+                "Click on the Proceed to Checkout button if iPhone 13 Pro is in stock."
+            ],
+            "Expected": "User should be able to proceed to checkout if iPhone 13 Pro is in stock"
+        },
+        {
+            "s.no": "6",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and enters invalid payment details",
+            "Test data": "Valid username, password, invalid payment details",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the checkout page.",
+                "Enter invalid payment details (e.g., incorrect credit card number or expiration date)."
+            ],
+            "Expected": "System should display an error message for failed payment validation"
+        },
+        {
+            "s.no": "7",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and applies a valid discount coupon",
+            "Test data": "Valid username, password, valid discount coupon",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the checkout page.",
+                "Enter a valid discount coupon code."
+            ],
+            "Expected": "Discount should apply to the total price"
+        },
+        {
+            "s.no": "8",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and places an order",
+            "Test data": "Valid username, password, product name: 'iPhone 13 Pro'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the checkout page.",
+                "Click on the Place Order button."
+            ],
+            "Expected": "User should see an order confirmation message upon successful purchase"
+        },
+        {
+            "s.no": "9",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and views order history",
+            "Test data": "Valid username, password, order ID: 'ORDER-123'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the Order History page.",
+                "Verify that the purchased item (iPhone 13 Pro) is displayed along with the order details."
+            ],
+            "Expected": "Purchased item should be visible in the 'Your Orders' page"
+        },
+        {
+            "s.no": "10",
+            "Pre-Requisite": "Application login with valid credentials and product list displayed",
+            "Test Scenario": "User logs in to the application and checks order status",
+            "Test data": "Valid username, password, order ID: 'ORDER-123'",
+            "Steps": [
+                "Login to the application with valid credentials.",
+                "Navigate to the Order History page.",
+                "Verify that the system displays the current order status."
+            ],
+            "Expected": "System should display the current order status"
+        }
+    ]
+}    

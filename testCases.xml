@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCases>
+    <testCase>
+        <id>1</id>
+        <name>Login with Invalid Credentials</name>
+        <preRequisite>None</preRequisite>
+        <testScenario>User attempts to log in with invalid credentials.</testScenario>
+        <testData>Invalid username and password</testData>
+        <steps>
+            <step>Navigate to the login page.</step>
+            <step>Enter invalid username and password.</step>
+            <step>Click the "Login" button.</step>
+        </steps>
+        <expectedResult>User sees an error message indicating invalid credentials.</expectedResult>
+    </testCase>
+    <testCase>
+        <id>2</id>
+        <name>Search for Non-Existent Product</name>
+        <preRequisite>User is logged in.</preRequisite>
+        <testScenario>User searches for a product that does not exist.</testScenario>
+        <testData>Non-existent product name</testData>
+        <steps>
+            <step>Enter a non-existent product name in the search bar.</step>
+            <step>Click the search button.</step>
+        </steps>
+        <expectedResult>User sees a message indicating no products found.</expectedResult>
+    </testCase>
+    <testCase>
+        <id>3</id>
+        <name>Add Out of Stock Product to Cart</name>
+        <preRequisite>User is logged in.</preRequisite>
+        <testScenario>User attempts to add an out-of-stock product to the cart.</testScenario>
+        <testData>Out-of-stock product name</testData>
+        <steps>
+            <step>Search for an out-of-stock product.</step>
+            <step>Attempt to add the product to the cart.</step>
+        </steps>
+        <expectedResult>User sees a message indicating the product is out of stock.</expectedResult>
+    </testCase>
+    <testCase>
+        <id>4</id>
+        <name>Checkout with Empty Cart</name>
+        <preRequisite>User is logged in.</preRequisite>
+        <testScenario>User attempts to proceed to checkout with an empty cart.</testScenario>
+        <testData>None</testData>
+        <steps>
+            <step>Navigate to the cart page.</step>
+            <step>Click the "Proceed to Checkout" button.</step>
+        </steps>
+        <expectedResult>User sees a message indicating the cart is empty.</expectedResult>
+    </testCase>
+    <testCase>
+        <id>5</id>
+        <name>Apply Expired Discount Coupon</name>
+        <preRequisite>User is on the checkout page.</preRequisite>
+        <testScenario>User applies an expired discount coupon.</testScenario>
+        <testData>Expired discount coupon code</testData>
+        <steps>
+            <step>Enter an expired discount coupon code.</step>
+            <step>Click the "Apply" button.</step>
+        </steps>
+        <expectedResult>User sees a message indicating the coupon is expired.</expectedResult>
+    </testCase>
+</testCases>

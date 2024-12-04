@@ -7,7 +7,7 @@
     "test-ccmbr": "npx cucumber-js tests/cucumber/features/productCheckout.feature",
     "allure:generate": "allure generate ./allure-results --clean",
     "allure:open": "allure open ./allure-report",
-    "locust" : "locust -f tests/PERFORMANCE/locustfile.py --users 5000 --spawn-rate 100"
+    "locust": "locust -f tests/PERFORMANCE/locustfile.py --users 5000 --spawn-rate 100"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "@cucumber/pretty-formatter": "^1.0.1",
-    "csv-writer": "^1.6.0"
+    "csv-writer": "^1.6.0",
+    "langfuse": "^3.27.0",
+    "xlsx": "^0.18.5"
   }
 }
