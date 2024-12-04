@@ -1,0 +1,152 @@
+[
+  {
+    "id": "cm2ebkj78011axgx5b1xzfc17",
+    "createdAt": "2024-10-18T05:58:55.029Z",
+    "updatedAt": "2024-10-18T05:58:55.029Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "On the given URL https://automationexercise.com/login\nPlease create 5 test cases with positive and negative test cases.\nif your username or password is incorrect you should get this error message \"Your email or password is incorrect!\"\nif the username and password are correct, you should see the product catalog with images, price and description on the page.",
+    "name": "PositiveAndNegativeLoginTestCases",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [],
+    "labels": [
+      "latest"
+    ]
+  },
+  {
+    "id": "cm2ecwn4z010b59ld0k94pan4",
+    "createdAt": "2024-10-18T06:36:19.620Z",
+    "updatedAt": "2024-10-30T08:58:03.549Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": []
+  },
+  {
+    "id": "cm2vn94t901x211gnwppend8c",
+    "createdAt": "2024-10-30T08:58:03.549Z",
+    "updatedAt": "2024-10-30T09:19:02.595Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse",
+    "version": 2,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": []
+  },
+  {
+    "id": "cm2vo04ar01y911gntnn2z63w",
+    "createdAt": "2024-10-30T09:19:02.595Z",
+    "updatedAt": "2024-11-13T09:18:10.550Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse",
+    "version": 3,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": []
+  },
+  {
+    "id": "cm3fo4xh201j8iav71fnni48l",
+    "createdAt": "2024-11-13T09:18:10.550Z",
+    "updatedAt": "2024-11-18T07:01:42.894Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse",
+    "version": 4,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": []
+  },
+  {
+    "id": "cm3mogp6600jyoybmq24162ln",
+    "createdAt": "2024-11-18T07:01:42.894Z",
+    "updatedAt": "2024-11-18T07:01:42.894Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse",
+    "version": 5,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": [
+      "example",
+      "text",
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3mp64tw00oy73ovsf5mbvnk",
+    "createdAt": "2024-11-18T07:21:29.589Z",
+    "updatedAt": "2024-11-18T07:21:29.589Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "API",
+    "prompt": "I am giving you a prompt 'who is the father of economy?'now above prompt should be automatically capture and send to to langfuse. above is just an example i will 100s of prompts or more those all should be send to langfuse.",
+    "name": "Sending_Prompt_From_Copilot_To_Langfuse_2",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [
+      "weather",
+      "assistant"
+    ],
+    "labels": [
+      "example",
+      "text",
+      "latest"
+    ]
+  },
+  {
+    "id": "cm3mo8gz000l973ovvolih59g",
+    "createdAt": "2024-11-18T06:55:19.020Z",
+    "updatedAt": "2024-11-18T06:55:19.020Z",
+    "projectId": "cm2eb6wjy01086p64yd8yhvpl",
+    "createdBy": "cm2eb5vpz00zy6p64nrbr5eyy",
+    "prompt": "write five test cases for forgot password",
+    "name": "test_prompt_to_fetch_at_local",
+    "version": 1,
+    "type": "text",
+    "isActive": null,
+    "config": {},
+    "tags": [],
+    "labels": [
+      "latest"
+    ]
+  }
+]

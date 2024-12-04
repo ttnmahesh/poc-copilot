@@ -29,6 +29,7 @@
   "dependencies": {
     "@cucumber/pretty-formatter": "^1.0.1",
     "csv-writer": "^1.6.0",
-    "langfuse": "^3.27.0"
+    "langfuse": "^3.27.0",
+    "xlsx": "^0.18.5"
   }
 }
